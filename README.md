@@ -2,7 +2,7 @@
   <img src="/assets/defiscape-logo.png" width="170" alt="DEFIscape Logo">
 </p>
 
-<h1 align="center">DEFIscape — Recover Assets from Abandoned(Dead) & Life DeFi Protocols</h1>
+<h1 align="center">DEFIscape — Recover Assets from Abandoned(Dead) & Live DeFi Protocols</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-success.svg">
