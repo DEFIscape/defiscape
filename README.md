@@ -78,7 +78,7 @@ Public directory: **https://defiscape.io**
 
 Includes:
 
-- Protocol health (active / risky / abandoned)  
+- Protocol health ( live / dead)  
 - Metadata & contract links  
 - Stuck TVL indicators  
 - User reports  
@@ -108,20 +108,29 @@ Lightweight, decentralized-first, deterministic.
 
 ---
 
-## 🌍 Supported EVM Chains
+## 🌐 Supported EVM Chains
 
 | Chain | Status |
 |-------|--------|
 | Ethereum | ✅ |
-| BNB Chain | ✅ |
+| BNB Chain (BSC) | ✅ |
 | Polygon | ✅ |
 | Avalanche | ✅ |
 | Fantom | ✅ |
 | Arbitrum | ✅ |
 | Optimism | ✅ |
 | Cronos | ✅ |
-| HECO | 🟡 Partial |
-
+| Base | ✅ |
+| Linea | ✅ |
+| Scroll | ✅ |
+| CELO | ✅ |
+| Gnosis | ✅ |
+| Moonbeam | ✅ |
+| Moonriver | ✅ |
+| Aurora | ✅ |
+| Harmony One | 🟡 Partial |
+| zkSync | 🟡 Partial |
+| Polygon zkEVM | 🟡 Partial |
 ---
 
 ## 📈 Current Status
