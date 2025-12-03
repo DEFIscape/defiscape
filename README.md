@@ -1,39 +1,65 @@
-<p align="center">
-  <img src="/assets/defiscape-logo.png" width="170" alt="DEFIscape Logo">
-</p>
+<tool_call>
+{"name": "search_image", "arguments": {"prompt": "DEFIscape Logo"}}
+</tool_call>
 
-<h1 align="center">DEFIscape — Recover Assets from Abandoned(Dead) & Live DeFi Protocols</h1>
+<h1 align="0center">DEFIscape | UNTRAP DEFI! One-click recovery from abandoned & legacy DeFi protocols</h1>
+<h3 align="center">Non-custodial access to your stuck assets, even when the project is gone</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-success.svg">
-  <img src="https://img.shields.io/badge/chains-10%2B-blue.svg">
+  <img src="https://img.shields.io/badge/chains-19%2B-blue.svg">
+  <img src="https://img.shields.io/badge/protocols-40%2B-orange.svg">
   <img src="https://img.shields.io/badge/license-Custom-lightgrey.svg">
   <img src="https://img.shields.io/badge/built%20with-SvelteKit-ff3e00.svg">
 </p>
 
 ---
 
-**DEFIscape** is a non-custodial web interface that helps users reclaim assets stuck in abandoned or deprecated DeFi protocols.
-When UIs vanish, teams disappear, or hosting is shut down, staking contracts and LP vaults remain on-chain — but become inaccessible.
-DEFIscape restores one-click access — directly from your wallet 
+**DEFIscape** is a non-custodial web interface that helps users reclaim assets stuck in abandoned or deprecated DeFi protocols.  
+When UIs vanish, teams disappear, or hosting is shut down, staking contracts and LP vaults remain on-chain — but become inaccessible.  
+**DEFIscape restores one-click access — directly from your wallet.**
 
 **DEFIscape restores access to these assets safely and transparently.**
 
 ---
 
-## 🚨 Why DEFIscape Exists
+## 🚨 The Problem
 
-Across EVM ecosystems, hundreds of millions of dollars are locked in outdated or abandoned systems:
+Across EVM ecosystems, **$2–4 billion in user capital is technically recoverable — but effectively lost**.  
+Not from hacks. From vanished UIs and missing interfaces.
 
-| Problem | Description |
-|--------|-------------|
-| 🧱 Staking Contracts | Users cannot call `withdraw()` or `exit()` because the UI is dead |
-| 🧪 Deprecated LP Pools | LP tokens remain idle in V1/V2 vaults |
-| 👻 Abandoned Farms | Teams vanished, websites offline |
-| 🎁 Reward Systems | Unclaimed rewards stuck in reward contracts |
-| 🕳 UI-less Protocols | Contracts function, but no interface exists |
+Users are stuck in two types of positions:  
+→ **Legacy positions in active protocols** (Uniswap v2, Pancake v2, Sushi legacy, Yearn v1, Aave v1/v2, Venus, GMX v1)  
+→ **Fully abandoned projects** (Wault, Retro, Polycat, LooksRare rewards, Bancor v2 +300 others)
 
-Your funds aren’t lost — **they are simply inaccessible without a proper interface**.
+Result: hundreds of millions sit frozen while users believe their money is gone forever.  
+**Your funds aren’t lost — they are simply inaccessible without a proper interface.**
+
+---
+
+## ✅ The Solution
+
+**DEFIscape is a 100% non-custodial recovery layer** that brings back access — with zero trust required.
+
+- **One-click unstake** from any protocol — even if the UI is gone  
+- **Direct wallet → contract calls** — no custom contracts, no approvals, zero audit risk  
+- **Live on 19 EVM chains**: Ethereum, Polygon, Arbitrum, BSC, Base, zkSync Era, Scroll, Linea + 11 more  
+- **40+ protocols supported today** → 400+ planned in 6 months  
+- **Mobile-ready + WalletConnect v2**
+
+> You stay in full control. We just bring back the buttons that disappeared.
+
+---
+
+## 🎥 Demo Video
+
+See DEFIscape in action — connect, scan, and unstake from legacy protocols in under 2 minutes:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=PoYP-m6UISU" target="_blank">
+    <img src="https://img.youtube.com/vi/PoYP-m6UISU/maxresdefault.jpg" width="640" alt="DEFIscape Demo Video">
+  </a>
+</p>
 
 ---
 
@@ -46,7 +72,7 @@ Automatically detects:
 - Deprecated LP pools  
 - Unclaimed rewards  
 - Recoverable contract functions  
-- Protocol status (active / risky / abandoned)  
+- Protocol status (live/dead)  
 
 🧠 Powered by **DeBank API** + custom dead-protocol classifier.
 
@@ -55,7 +81,7 @@ Automatically detects:
 ### 🧰 **Contract Interaction Engine**
 Interact directly with DeFi contracts:
 
-- Unstake from abandoned farms  
+- Unstake from abandoned farms, vaults, staking
 - Withdraw LP tokens  
 - Claim pending rewards  
 - Trigger `withdraw()`, `exit()`, `unstake()`, etc.  
@@ -81,8 +107,7 @@ Includes:
 
 - Protocol health ( live / dead)  
 - Metadata & contract links  
-- Stuck TVL indicators  
-- User reports  
+- User votes 
 - Integration suggestions  
 
 ---
@@ -91,75 +116,81 @@ Includes:
 
 - No private key storage  
 - No backend signing  
+- No custom smart-contracts
 - No custody of user funds  
 - Direct contract interactions  
 - Fully client-side architecture  
 
 ---
 
-
-
-
 ## 🌐 Supported EVM Chains
 
-| Chain | Status |
-|-------|--------|
-| Ethereum | ✅ |
-| BNB Chain (BSC) | ✅ |
-| Polygon | ✅ |
-| Avalanche | ✅ |
-| Fantom | ✅ |
-| Arbitrum | ✅ |
-| Optimism | ✅ |
-| Cronos | ✅ |
-| Base | ✅ |
-| Linea | ✅ |
-| Scroll | ✅ |
-| CELO | ✅ |
-| Gnosis | ✅ |
-| Moonbeam | ✅ |
-| Moonriver | ✅ |
-| Aurora | ✅ |
-| Harmony One | 🟡 Partial |
-| zkSync | 🟡 Partial |
-| Polygon zkEVM | 🟡 Partial |
+| Chain              | Status |
+|--------------------|--------|
+| Ethereum (Mainnet) | ✅     |
+| BNB Chain (BSC)    | ✅     |
+| Polygon            | ✅     |
+| Arbitrum           | ✅     |
+| Base               | ✅     |
+| Linea              | ✅     |
+| Avalanche          | ✅     |
+| Fantom             | ✅     |
+| Optimism           | ✅     |
+| Scroll             | ✅     |
+| Cronos             | ✅     |
+| CELO               | ✅     |
+| Gnosis             | ✅     |
+| Moonbeam           | ✅     |
+| Moonriver          | ✅     |
+| Polygon zkEVM      | ✅     |
+| Abstract           | ✅     |
+| UniChain           | ✅     |
+| HyperEVM           | ✅     |
+| Berachain          | ✅     |
+| Katana             | ✅     |
 ---
 
 ## 📈 Current Status
 
-- ✔ Live App — https://app.defiscape.io  
-- ✔ 25+ integrated protocols  
-- ✔ Support for 19 EVM chains  
+- ✔ Live App — https://app.defiscape.io    
+- ✔ 40+ integrated protocols  
+- ✔ Support for 21 EVM chains  
 - ✔ Secure contract call system  
 - ✔ Multi-chain scanning  
 - ✔ Protocol directory online  
 - ✔ Manual rescue requests via Telegram bot  
 - ✔ Telegram support bot  
 
-DEFIscape is already used to recover real assets from abandoned DeFi protocols.
+**Real user funds have already been recovered** from legacy and abandoned protocols.  
+DEFIscape is in production — this is not a prototype.
 
-Note: Basic unstake is free. Complex rescues (e.g. dead protocols with no liquidity) may require a fee to cover API and gas costs. All fees are disclosed before transaction
 
 ---
 
 ## 🧭 Roadmap
 
-### **Q4 2025**
-- Improved protocol metadata  
-- Guided recovery UI  
-- DeBank-independent detection  
+### **Q4 2025 (Completed / In Final Testing)**
+- **Live support for 40+ protocols across 21 EVM chains**  
+- **Production-ready WalletConnect v2 + mobile UI**  
+- **Basic recovery flow**: unstake/withdraw from legacy & abandoned protocols (mainnet-tested)  
+- **Telegram support bot** (`@defiscapeBot`) for user assistance
 
 ### **Q1 2026**
-- Universal Claim Module  
-- Manual rescue workflow for complex dead protocols
-- User-guided withdrawal flows (with gas estimation)
-- Global stuck TVL analytics  
-- Expand to 50+ protocols with community feedback
+- Guided recovery UI with gas estimation and step-by-step instructions   
+- Basic user metrics: unique wallets scanned, positions detected, recovery attempts  
+
 
 ### **Q2 2026**
-- DEFIscape SDK  
-- Dead-pool notifications  
-- 100+ protocol integrations  
+- **Universal Template System** — one template = support for all forks across chains  
+- Launch **Help Center**: searchable docs, FAQ, and embedded video guides 
+- **Protocol Health Indicator** + dead-pool notifications  
+- Scale to **100+ protocols** with community-driven prioritization  
+- Public impact dashboard (`defiscape.io/stats`): capital recovered, TX count, per-chain stats
+
+### **H2 2026**
+- Expand to **400+ protocols** across 30–50 EVM chains  
+- Multilingual Help Center + advanced rescue workflows  
+- Full on-chain position scanner (zero reliance on third-party APIs)
 
 ---
 
@@ -185,18 +216,19 @@ We welcome collaborations from:
 
 ## 📬 Community
 
-- Website → https://defiscape.io  
-- App → https://app.defiscape.io  
-- Telegram → https://t.me/DEFIscape  
-- Twitter → https://x.com/DEFIscapeApp  
-- Youtube → https://youtube.com/@DEFIscape  
+- Website → https://defiscape.io    
+- App → https://app.defiscape.io    
+- Telegram → https://t.me/DEFIscape    
+- Twitter → https://x.com/DEFIscapeApp    
+- Youtube → https://youtube.com/@DEFIscape    
+- Discord → https://discord.com/invite/ErphXTGtfK  
 
 ---
 
 ## 📄 License
 
-This repository contains only documentation and public metadata.
-The core application is proprietary and closed-source to protect user experience and business logic.
+This repository contains only documentation and public metadata.  
+The core application is proprietary and closed-source to protect user experience and business logic.  
 We may open-source non-sensitive components (e.g. protocol adapters) in the future.
 
 ---
