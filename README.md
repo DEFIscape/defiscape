@@ -1,6 +1,7 @@
-<tool_call>
-{"name": "search_image", "arguments": {"prompt": "DEFIscape Logo"}}
-</tool_call>
+<p align="center">
+  <img src="/assets/defiscape-logo.png" width="170" alt="DEFIscape Logo">
+</p>
+
 
 <h1 align="0center">DEFIscape | UNTRAP DEFI! One-click recovery from abandoned & legacy DeFi protocols</h1>
 <h3 align="center">Non-custodial access to your stuck assets, even when the project is gone</h3>
