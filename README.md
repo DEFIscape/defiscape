@@ -26,7 +26,7 @@ When UIs vanish, teams disappear, or hosting is shut down, staking contracts and
 
 ## 🚨 The Problem
 
-Across EVM ecosystems, **$2–4 billion in user capital is technically recoverable — but effectively lost**.  
+Across EVM ecosystems, **$1–4 billion in user capital is technically recoverable — but effectively lost**.  
 Not from hacks. From vanished UIs and missing interfaces.
 <i>(Estimate based on DeFiLlama’s “Inactive Protocols” ($2.1B+ TVL) and EigenPhi’s “Zombie Liquidity” research (2024).)</i>
 
