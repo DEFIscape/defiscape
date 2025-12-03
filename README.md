@@ -28,6 +28,7 @@ When UIs vanish, teams disappear, or hosting is shut down, staking contracts and
 
 Across EVM ecosystems, **$2–4 billion in user capital is technically recoverable — but effectively lost**.  
 Not from hacks. From vanished UIs and missing interfaces.
+<i>(Estimate based on DeFiLlama’s “Inactive Protocols” ($2.1B+ TVL) and EigenPhi’s “Zombie Liquidity” research (2024).)</i>
 
 Users are stuck in two types of positions:  
 → **Legacy positions in active protocols** (Uniswap v2, Pancake v2, Sushi legacy, Yearn v1, Aave v1/v2, Venus, GMX v1)  
