@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-success.svg">
-  <img src="https://img.shields.io/badge/chains-19%2B-blue.svg">
+  <img src="https://img.shields.io/badge/chains-22%2B-blue.svg">
   <img src="https://img.shields.io/badge/protocols-40%2B-orange.svg">
   <img src="https://img.shields.io/badge/license-Custom-lightgrey.svg">
   <img src="https://img.shields.io/badge/built%20with-SvelteKit-ff3e00.svg">
@@ -45,7 +45,7 @@ Result: hundreds of millions sit frozen while users believe their money is gone 
 
 - **One-click unstake** from any protocol — even if the UI is gone  
 - **Direct wallet → contract calls** — no custom contracts, no approvals, zero audit risk  
-- **Live on 19 EVM chains**: Ethereum, Polygon, Arbitrum, BSC, Base, zkSync Era, Scroll, Linea + 11 more  
+- **Live on 22 EVM chains**: Ethereum, Polygon, Arbitrum, BSC, Base, zkSync Era, Scroll, Linea + 11 more  
 - **40+ protocols supported today** → 400+ planned in 6 months  
 - **Mobile-ready + WalletConnect v2**
 
@@ -153,6 +153,7 @@ Includes:
 | HyperEVM           | ✅     |
 | Berachain          | ✅     |
 | Katana             | ✅     |
+| opBNB              | ✅     |
 ---
 
 ## 📈 Current Status
